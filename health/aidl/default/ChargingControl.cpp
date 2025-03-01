@@ -22,7 +22,7 @@ namespace health {
 
 #ifdef HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE
 static const std::vector<ChargingEnabledNode> kChargingEnabledNodes = {
-        {HEALTH_CHARGING_CONTROL_CHARGING_PATH, HEALTH_CHARGING_CONTROL_CHARGING_ENABLED,
+        {HEALTH_CHARGING_CONTROL_CHARGING_ENABLED,
          HEALTH_CHARGING_CONTROL_CHARGING_DISABLED},
         {"/sys/class/power_supply/battery/battery_charging_enabled", "1", "0"},
         {"/sys/class/power_supply/battery/charging_enabled", "1", "0"},
